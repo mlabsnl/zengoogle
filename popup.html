@@ -1,10 +1,15 @@
-<style>
-body {
-  min-width:357px;
-  overflow-x:hidden;
-  font-family:Arial;
+<script type="text/javascript" src="jquery-1.6.2.min.js"></script>
+<link rel="stylesheet" href="style.css" />
+
+<script>
+function click() {
+	
+     chrome.tabs.executeScript(null,
+      {code:"var $j = jQuery.noConflict();$j('.mq').hide();alert('s')"});
+  window.close();
 }
-</style>
+</script>
+<div onclick="click()" >Test</div>
 <body>
 	All your googles are belong to us
 </body>

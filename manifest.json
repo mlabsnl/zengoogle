@@ -1,0 +1,12 @@
+{
+  "name": "Zen Google",
+  "version": "1.0",
+  "description": "Remove clutter from Google products and endow in workflow bliss",
+  "browser_action": {
+    "default_icon": "icon.png",
+	"popup": "popup.html"
+  },
+  "permissions": [
+    "http://api.flickr.com/"
+  ]
+}
